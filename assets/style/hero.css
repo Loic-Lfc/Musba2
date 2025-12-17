@@ -1,4 +1,16 @@
 .hero img {
-    width: 1580px;
+    width: 100%;
     height: auto;
+}
+
+.h2-index {
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.lead-index {
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
 }
