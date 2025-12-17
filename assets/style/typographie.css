@@ -17,11 +17,6 @@
     font-style: normal;
 }
 
-.roboto-serif {
-    font-family: "Roboto Serif", serif;
-    font-style: normal;
-}
-
 /* Textes */
 .logo-hero {
     font-size: 80px;
@@ -62,5 +57,12 @@ h3 {
 }
 
 footer {
-    font-family: Roboto Serif;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 125,
+        "GRAD" 0;
 }
+
