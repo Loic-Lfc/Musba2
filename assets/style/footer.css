@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--color-footer);
+    color: white;
+    padding: 64px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col a{
+    color:white ;
+    text-decoration: none;
+}
+
+.footer-col2 a{
+    color:white ;
+    text-decoration: none;
+}
+
+.footer-col2 {
+    margin-left: 400px;
+}
+
+footer a:hover{
+    opacity: 0.5;
+}
+
+footer img:hover{
+    opacity: 0.5;
+}
