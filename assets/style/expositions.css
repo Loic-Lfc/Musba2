@@ -1,3 +1,4 @@
+/*Image*/
 .image {
     width: fit-content;
     margin-left: auto;
@@ -12,14 +13,48 @@
     color: #555;
 }
 
+/*Titre*/
 .lead {
   justify-content: center;
   text-align: center;
   margin-top: 100px;
 }
 
-.lead hr{
+.lead hr {
   max-width: 800px;
   margin-top: -10px;
   margin-bottom: 40px;
+}
+
+/*Description*/
+.desc-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+  margin: 53px 64px 134px 64px;
+  justify-content: center;
+  text-align: center;
+}
+
+.description h4 {
+  color: var(--color-primary);
+}
+
+.description h5 {
+  margin-bottom: 10px;
+}
+
+.desc-col {
+  text-align: left;
+}
+
+.desc-button {
+  color: black;
+  background-color: #FFF5F7;
+  border-color: var(--color-primary);
+  border-width: 3px;
+  border-style: solid;
+  padding: 22px 17.5px 22px 17.5px;
 }

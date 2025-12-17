@@ -1,0 +1,17 @@
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.h3-index {
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    display: block;
+}
+
+.lead-index {
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+}
