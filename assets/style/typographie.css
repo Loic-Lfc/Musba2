@@ -47,6 +47,7 @@ h5 {
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 180%;
 }
 
 .button {
@@ -54,6 +55,7 @@ h5 {
     font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
+    line-height: 100%;
 }
 
 .caption {
@@ -61,6 +63,7 @@ h5 {
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 140%;
 }
 
 footer {
@@ -71,4 +74,5 @@ footer {
     font-variation-settings:
         "wdth" 125,
         "GRAD" 0;
+    line-height: 35px;
 }
