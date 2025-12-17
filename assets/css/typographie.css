@@ -1,0 +1,66 @@
+/* Polices Locales */
+.scope-one-regular {
+    font-family: "Scope One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.roboto-serif {
+    font-family: "Roboto Serif", serif;
+    font-style: normal;
+}
+
+/* Textes */
+.logo-hero {
+    font-size: 80px;
+    font-family: Scope One;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: Scope One;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Scope One;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: Scope One;
+}
+
+.body {
+    font-size: 18px;
+    font-family: Fira Sans;
+    font-weight: 400;
+}
+
+.button {
+    font-size: 20px;
+    font-family: Fira Sans;
+    font-weight: 600;
+}
+
+.caption {
+    font-size: 14px;
+    font-family: Fira Sans;
+    font-weight: 400;
+}
+
+footer {
+    font-family: Roboto Serif;
+}
