@@ -3,11 +3,11 @@
     height: auto;
 }
 
-.h2-index {
+h2 {
     width: 100%;
     text-align: center;
     margin-top: 65px;
-    display: block;
+    display: inline;
 }
 
 .lead-index {
