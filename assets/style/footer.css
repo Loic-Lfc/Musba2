@@ -40,7 +40,7 @@ footer {
 }
 
 .footer-col ul li {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .footer-col hr {
@@ -49,13 +49,12 @@ footer {
     margin: 0 0 20px 0;
 }
 
-.footer-gauche {
+.footer-gauche{
     flex-grow: 1;
 }
 
 .footer-autre {
     flex-grow: 0.4;
-    width: 100px;
 }
 
 footer a:hover,
