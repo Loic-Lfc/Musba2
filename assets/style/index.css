@@ -1,3 +1,5 @@
+/* Hero */
+
 .hero img {
     width: 100%;
     height: auto;
@@ -13,5 +15,15 @@
 .lead-index {
     width: 100%;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 35px;
+}
+
+.body-index {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ouvert {
+    color: #0C7400;
 }
