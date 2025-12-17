@@ -1,19 +1,25 @@
 .image {
-  max-width: 100%;
-  margin: 40px auto;
-}
-
-.image img {
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    margin-right: auto;
+    width: fit-content;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .caption {
-    text-align: auto;
+    text-align: left;
     margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+}
+
+.lead {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.lead hr{
+  max-width: 800px;
+  margin-top: -10px;
+  margin-bottom: 40px;
 }
