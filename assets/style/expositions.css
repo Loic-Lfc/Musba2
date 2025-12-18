@@ -3,6 +3,7 @@
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .image img {
@@ -11,6 +12,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .caption {
@@ -161,6 +163,10 @@
     .desktop-only {
         display: none;
     }
+    .desc-col {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /*Accessibilité*/
@@ -202,7 +208,7 @@
 
 .top-section {
     position: relative;
-    padding: 0 20px 20px 20px;
+    padding: 20px 0 20px 0;
 }
 
 .icons-container {
