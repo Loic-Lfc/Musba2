@@ -108,7 +108,7 @@
 .flecheR {
     display: flex;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 225px;
 }
 
 
@@ -128,4 +128,13 @@
 
 .expo-tempo-button {
     display:flex;
+}
+
+.space-expo-tempo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.expo-tempo-titre_text {
+    align-items: flex-start;
 }
