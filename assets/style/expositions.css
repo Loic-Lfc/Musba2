@@ -23,6 +23,18 @@
     margin-right: 20px;
 }
 
+/*Responsive Top*/
+@media (max-width: 768px) {
+    .top-responsive{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .image { order: 2; } 
+    .lead { order: 1; }
+}
+
 /*Titre*/
 .lead {
     justify-content: center;
@@ -112,6 +124,14 @@
 
 .event-content p {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+  .description {
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 /*Accessibilité*/
