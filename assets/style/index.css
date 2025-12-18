@@ -44,5 +44,13 @@
   text-decoration: none;
 }
 
+/* Section Autres articles */
 
+.end-article {
+    display: flex;
+}
 
+.end-article article img {
+    max-width: auto;
+    height: 350px;
+}
