@@ -56,9 +56,13 @@
     margin: 90px 60px 40px 40px;
 }
 
+.end-article article {
+    width: 350px;;
+}
+
 
 .end-article article img {
-    width: 350px;
+    width: 100%;
     height: auto;
 }
 
