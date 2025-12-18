@@ -84,9 +84,7 @@
     text-align: center;
 }
 
-.expo-tempo a {
+.button-tempo-pos{
     display:flex;
-    align-content: center;
-    max-width: fit-content;
     justify-content: center;
 }
