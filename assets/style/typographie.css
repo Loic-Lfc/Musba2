@@ -82,3 +82,89 @@ footer {
         "GRAD" 0;
     line-height: 35px;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        line-height: 30px;
+        color: black;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        line-height: 130%;
+        color: black;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        line-height: 120%;
+        color: black;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        line-height: auto;
+        color: black;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color:black
+    }
+
+    .body {
+        font-size: 16px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 180%;
+        color: black;
+    }
+
+    .button {
+        font-size: 16px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 100%;
+    }
+
+    .caption {
+        font-size: 14px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 140%;
+    }
+
+    footer {
+        font-family: "Roboto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 125,
+            "GRAD" 0;
+        line-height: 35px;
+    }
+}
