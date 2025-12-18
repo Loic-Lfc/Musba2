@@ -75,3 +75,18 @@
 .spaceh4{
     margin-top: 10px;
 }
+
+.expo-tempo h3{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.expo-tempo a {
+    display:flex;
+    align-content: center;
+    max-width: fit-content;
+    justify-content: center;
+}
