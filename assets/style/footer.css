@@ -22,7 +22,7 @@ footer {
     transition: opacity 0.3s;
 }
 
-.footer-col p, 
+.footer-col p,
 .footer-col h3 {
     margin: 0 0 20px 0;
 }
@@ -48,7 +48,7 @@ footer {
     margin: 0 0 20px 0;
 }
 
-.footer-gauche{
+.footer-gauche {
     flex-grow: 1;
 }
 
