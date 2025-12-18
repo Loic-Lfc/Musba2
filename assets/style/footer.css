@@ -1,7 +1,7 @@
 footer {
     background-color: var(--color-footer);
     color: white;
-    padding: 64px;
+    padding: 64px 80px;
 }
 
 .row {
@@ -19,7 +19,6 @@ footer {
 .footer-col a {
     color: white;
     text-decoration: none;
-    display: inline-block; 
     transition: opacity 0.3s;
 }
 
@@ -36,7 +35,7 @@ footer {
 .footer-col ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 20px 0; 
+    margin: 0 0 20px 0;
 }
 
 .footer-col ul li {
@@ -64,10 +63,47 @@ footer img:hover {
 
 .social-icons {
     display: flex;
-    gap: 15px; 
+    gap: 15px;
     margin-top: 10px;
 }
 
 footer h4 {
     color: white;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col hr {
+        display: block;
+        border: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        margin: 20px 0;
+    }
+
+    .footer-col ul li {
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .social-media p {
+        margin: 0;
+    }
 }
