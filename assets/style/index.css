@@ -76,6 +76,8 @@
     margin-top: 10px;
 }
 
+/* Eposition temporaire */
+
 .expo-tempo h3{
     display:flex;
     justify-content: center;
@@ -90,6 +92,13 @@
     align-items: center;
 }
 
+/* Eposition temporaire collection */
+
+.expo-tempo article{
+    display:flex;
+
+}
+
 .flecheL {
     display: flex;
     align-items: center;
@@ -100,10 +109,6 @@
     align-items: center;
 }
 
-.expo-tempo article{
-    display:flex;
-
-}
 
 .expo-img-caption {
     display:flex;
@@ -115,4 +120,8 @@
     display: flex;
     text-align: left;
     margin : 0px;
+}
+
+.expo-tempo-button {
+    display:flex;
 }
