@@ -1,8 +1,18 @@
 /*Image*/
 .image {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .caption {
@@ -11,6 +21,11 @@
     font-size: 0.9rem;
     font-style: italic;
     color: #555;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*Titre*/
@@ -69,7 +84,6 @@
     cursor: pointer;
 }
 
-/* Card */
 .event-card {
     position: relative;
     margin-top: auto;
@@ -195,4 +209,23 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallerie img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gallerie {
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .gallerie_texte {
+    grid-row: 6;
+  }
 }
