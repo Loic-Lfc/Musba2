@@ -228,12 +228,22 @@
 }
 
 @media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
     .access-content .body {
         margin-bottom: 40px;
     }
+
     .accessibilite {
         margin-left: 40px;
         margin-right: 40px;
+        margin-top: 20px;
+    }
+
+    .access-content {
+        padding-top: 30px;
     }
 }
 
