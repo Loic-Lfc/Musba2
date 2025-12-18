@@ -95,9 +95,14 @@
     align-items: center;
 }
 
+.flecheR {
+    display: flex;
+    align-items: center;
+}
+
 .expo-tempo article{
     display:flex;
-    flex-direction: row;
+
 }
 
 .expo-img-caption {
