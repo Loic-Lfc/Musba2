@@ -39,12 +39,14 @@ header nav ul li a {
     color: inherit;        
 }
 
-@media screen and (max-width: 768px) {
-    header a {
-        flex-direction: column;
-        display: none;
-    }
-    header ol li {
-        flex-direction: column;
-    }
+
+.separation-ligne {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.separation-ligne img {
+    width: 295px;
+    padding-top: 90px;
 }
