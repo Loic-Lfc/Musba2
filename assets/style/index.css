@@ -1,5 +1,10 @@
 /* Hero */
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .hero img {
     width: 100%;
     height: auto;
@@ -27,3 +32,17 @@
 .ouvert {
     color: #0C7400;
 }
+
+.Pos-herodesk-button {
+  color: black;
+  background-color: #FFF5F7;
+  border-color: var(--color-primary);
+  border-width: 3px;
+  border-style: solid;
+  padding: 22px 17.5px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+
+
