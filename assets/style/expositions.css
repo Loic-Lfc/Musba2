@@ -49,6 +49,13 @@
     margin-bottom: 40px;
 }
 
+@media (max-width: 768px) {
+    .lead hr{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+
 /*Description*/
 .desc-row {
     display: flex;
@@ -137,6 +144,12 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .event-content {
+        padding: 40px 15px 15px 15px; /* Plus compact sur mobile */
+    }
+  .desktop-only {
+        display: none;
+    }
 }
 
 /*Accessibilité*/
