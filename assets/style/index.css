@@ -87,4 +87,27 @@
 .button-tempo-pos{
     display:flex;
     justify-content: center;
+    align-items: center;
+}
+
+.flecheL {
+    display: flex;
+    align-items: center;
+}
+
+.expo-tempo article{
+    display:flex;
+    flex-direction: row;
+}
+
+.expo-img-caption {
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.expo-img-caption p {
+    display: flex;
+    text-align: left;
+    margin : 0px;
 }

@@ -96,6 +96,7 @@
     margin-top: auto;
     align-self: flex-start;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .event-card {
