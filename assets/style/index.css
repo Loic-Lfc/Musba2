@@ -350,16 +350,16 @@ margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: center;
 }
 
 .expo-perm article {
-    display: flex;
     justify-content: center;
     flex-direction: column;
-    width:fit-content;
     text-align: center;
     margin-bottom: 42px;
 }
+
 
 @media screen and (max-width: 768px) {
     .expo-perm {
