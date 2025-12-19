@@ -369,6 +369,75 @@ margin-top: 5px;
     margin-bottom: 42px;
 }
 
+@media screen and (max-width: 768px) {
+    .expo-perm {
+        padding: 0 20px;
+    }
+
+    .perm-titre {
+        justify-content: flex-start;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .perm-titre h3 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .first-part-perm {
+        flex-direction: column;
+    }
+
+    .centre-perm {
+        order: -1;
+        margin: 0 0 40px 0;
+        align-items: center;
+    }
+
+    .perm-texte {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .Pos-herodesk-button {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        border: 2px solid #800020;
+        padding: 15px 20px;
+    }
+
+    .gauche-perm, 
+    .droite-perm, 
+    .second-part-perm {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .expo-perm article {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 35px;
+    }
+
+    .expo-perm article img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    .expo-perm article h4 {
+        font-size: 1.1rem;
+        font-weight: normal;
+        margin: 0;
+    }
+}
+
 /* Section Autres articles */
 
 .end-article {
@@ -408,5 +477,103 @@ margin-top: 5px;
     .end-article {
         width: 100%;
         display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .expo-tempo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+
+    .expo-tempo h3 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .button-tempo-pos {
+        margin-bottom: 40px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #800020;
+        background-color: #fff0f5;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .tempo {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .expo-tempo-titre_text h4 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .expo-img-caption {
+        position: relative;
+        width: 100%;
+    }
+
+    .expo-img-caption img {
+        width: 100%;
+        display: block;
+    }
+
+    .expo-tempo-button {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+
+    .caption {
+        text-align: left;
+        font-size: 0.9rem;
+        margin-top: 15px;
+        color: #333;
+        line-height: 1.4;
+    }
+
+    .flecheL, .flecheR {
+        position: absolute;
+        top: 40%;
+        z-index: 10;
+        background: white;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .flecheL {
+        left: -10px;
+    }
+
+    .flecheR {
+        right: -10px;
+    }
+
+    .flecheL img, .flecheR img {
+        width: 25px;
+        height: auto;
+    }
+
+    .body.space-expo-tempo {
+        display: none; 
     }
 }
