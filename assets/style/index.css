@@ -137,15 +137,27 @@
     margin-top: 30px;
 }
 
+/* EXPO PERMANENT */
+
 .expo-tempo-titre_text {
     align-items: flex-start;
-}
-
-.first-part-perm {
-    display: flex;
 }
 
 .perm-titre {
     display:flex;
 }
 
+.first-part-perm {
+    display: flex;
+}
+
+.gauche-perm {
+    display: flex;
+}
+
+.droite-perm {
+    display: flex;
+}
+.second-part-perm {
+    display: flex;
+}
