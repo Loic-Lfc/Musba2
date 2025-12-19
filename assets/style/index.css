@@ -307,6 +307,8 @@ margin-top: 5px;
     align-items: flex-start;
 }
 
+
+
 /* EXPO PERMANENT */
 
 .perm-titre {
@@ -435,6 +437,78 @@ margin-top: 5px;
         font-size: 1.1rem;
         font-weight: normal;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .expo-tempo h3 {
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+
+    .expo-tempo article {
+        flex-direction: column;
+        margin: 40px 20px;
+        position: relative;
+    }
+
+    .expo-tempo-titre_text {
+        order: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .expo-tempo-titre_text h4 {
+        margin-bottom: 20px;
+    }
+
+    .expo-tempo-titre_text p.body {
+        display: none;
+    }
+
+    .expo-img-caption {
+        margin-right: 0;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .expo-img-caption img {
+        width: 100%;
+        height: auto;
+    }
+
+    .expo-img-caption .caption {
+        margin-top: 15px;
+    }
+
+    .flecheL, .flecheR {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0;
+        z-index: 10;
+    }
+
+    .flecheL {
+        left: -15px;
+    }
+
+    .flecheR {
+        right: -15px;
+    }
+
+    .expo-tempo-button {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+    }
+
+    .button-tempo-pos {
+        margin-top: 20px;
     }
 }
 
