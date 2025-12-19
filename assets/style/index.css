@@ -175,6 +175,8 @@ margin-top: 5px;
     height: 302px;
 }
 
+/* Responsive evenements */
+
 @media screen and (max-width: 768px) {
     .moment-container {
         width: 90%;
@@ -184,6 +186,7 @@ margin-top: 5px;
     }
 
     .all-column {
+        display: flex;
         flex-direction: column;
         gap: 20px;
     }
@@ -220,11 +223,6 @@ margin-top: 5px;
 
     .column2 {
         display: contents;
-    }
-
-    .all-column {
-        display: flex;
-        flex-direction: column;
     }
 
     .moment-title {
