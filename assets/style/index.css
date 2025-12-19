@@ -376,12 +376,11 @@ margin-top: 5px;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    margin: 90px 40px 40px 40px;
+    margin: 90px 40px 60px 40px;
 }
 
 .end-article article {
     width: 350px;
-    ;
 }
 
 
