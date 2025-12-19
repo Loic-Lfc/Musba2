@@ -77,6 +77,20 @@
 .spaceh4 {
     margin-top: 10px;
 }
+@media (max-width: 768px) {
+    .end-article {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .end-article {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
 
 /* Eposition temporaire */
 
