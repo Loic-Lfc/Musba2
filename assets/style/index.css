@@ -177,11 +177,18 @@
 .centre-perm {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .perm-texte {
     display: flex;
     text-align: center;
+}
+
+.perm-texte a {
+    display: flex;
+    max-width:fit-content;
+    align-content:flex-start;
 }
 
 .droite-perm {
@@ -191,6 +198,7 @@
 .second-part-perm {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .expo-perm article {
