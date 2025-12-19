@@ -162,22 +162,26 @@
     justify-content: center;
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 .first-part-perm {
     display: flex;
     flex-direction: row;
+    align-items: start;
 }
 
 .gauche-perm {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .centre-perm {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0 75px;
 }
 
 .perm-texte {
@@ -194,6 +198,7 @@
 .droite-perm {
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
 }
 .second-part-perm {
     display: flex;
@@ -206,4 +211,5 @@
     justify-content: center;
     flex-direction: column;
     width:fit-content;
+    text-align: center;
 }
