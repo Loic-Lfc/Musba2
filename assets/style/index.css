@@ -369,6 +369,75 @@ margin-top: 5px;
     margin-bottom: 42px;
 }
 
+@media screen and (max-width: 768px) {
+    .expo-perm {
+        padding: 0 20px;
+    }
+
+    .perm-titre {
+        justify-content: flex-start;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .perm-titre h3 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .first-part-perm {
+        flex-direction: column;
+    }
+
+    .centre-perm {
+        order: -1;
+        margin: 0 0 40px 0;
+        align-items: center;
+    }
+
+    .perm-texte {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .Pos-herodesk-button {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        border: 2px solid #800020;
+        padding: 15px 20px;
+    }
+
+    .gauche-perm, 
+    .droite-perm, 
+    .second-part-perm {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .expo-perm article {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 35px;
+    }
+
+    .expo-perm article img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    .expo-perm article h4 {
+        font-size: 1.1rem;
+        font-weight: normal;
+        margin: 0;
+    }
+}
+
 /* Section Autres articles */
 
 .end-article {
