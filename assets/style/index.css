@@ -175,6 +175,8 @@ margin-top: 5px;
     height: 302px;
 }
 
+/* Responsive evenements */
+
 @media screen and (max-width: 768px) {
     .moment-container {
         width: 90%;
@@ -184,6 +186,7 @@ margin-top: 5px;
     }
 
     .all-column {
+        display: flex;
         flex-direction: column;
         gap: 20px;
     }
@@ -212,19 +215,6 @@ margin-top: 5px;
 
     .column2 .body {
         order: 4;
-    }
-
-    .column1 {
-        display: contents;
-    }
-
-    .column2 {
-        display: contents;
-    }
-
-    .all-column {
-        display: flex;
-        flex-direction: column;
     }
 
     .moment-title {
@@ -519,12 +509,11 @@ margin-top: 5px;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    margin: 90px 40px 40px 40px;
+    margin: 90px 40px 60px 40px;
 }
 
 .end-article article {
     width: 350px;
-    ;
 }
 
 
