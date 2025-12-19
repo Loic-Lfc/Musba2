@@ -137,27 +137,50 @@
     margin-top: 30px;
 }
 
-/* EXPO PERMANENT */
-
 .expo-tempo-titre_text {
     align-items: flex-start;
 }
 
+/* EXPO PERMANENT */
+
 .perm-titre {
     display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
 }
 
 .first-part-perm {
     display: flex;
+    flex-direction: row;
 }
 
 .gauche-perm {
     display: flex;
+    flex-direction: column;
+}
+
+.centre-perm {
+    display: flex;
+    justify-content: center;
+}
+
+.perm-texte {
+    display: flex;
+    text-align: center;
 }
 
 .droite-perm {
     display: flex;
+    flex-direction: column;
 }
 .second-part-perm {
     display: flex;
+    flex-direction: row;
+}
+
+.expo-perm article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
