@@ -140,3 +140,12 @@
 .expo-tempo-titre_text {
     align-items: flex-start;
 }
+
+.first-part-perm {
+    display: flex;
+}
+
+.perm-titre {
+    display:flex;
+}
+
